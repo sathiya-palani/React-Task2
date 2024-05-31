@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: auto;
+    height: 70px;
+}
+
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(237, 241, 245);
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(33,37,41);
+    height: 180px;
+    color:rgb(144,146,138);
+}
+.subhead{
+    color: white;
+}
+.cart{
+    width: 100px;
+   padding: 15px;
+    justify-content: flex-end;
+}

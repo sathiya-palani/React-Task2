@@ -1,0 +1,107 @@
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: auto;
+    height: auto;
+    flex-wrap:wrap ;
+    gap: 30px;
+    justify-content: center;
+    margin: 0  auto; 
+}
+.dimensions{
+    margin-left: 15px;
+    margin-top: 100px;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bfbfbf;
+}
+  .multiply{
+    font-size: large;
+  }
+  .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 248px;
+    height: 200px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #f1eeee;
+    text-align: center;
+  }
+  .card-name{
+    margin-bottom: 0; 
+  }
+  .card-rating{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .card-price{
+    margin-bottom: 0;
+    
+  }
+  .footer{
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgb(33,37,41);
+    height: 150px;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .button{
+    width: 80px;
+    height: 40px;
+    border-radius:12px;
+  }
+  .button:hover{
+    background-color: rgb(76, 78, 80);
+    color: white;
+  }
+  .productButton{
+    width: 200px;
+    height: 40px;
+    border-radius:12px;
+   position: relative;
+   left: 23px;
+   
+  }
+  .productButton:hover{
+    background-color: rgb(76, 78, 80);
+    color: white;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 700px) {
+    .boxes {
+      text-align: center;
+      align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 701px) and (max-width: 900px) {
+    .boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (min-width: 901px) and (max-width: 1000px) {
+    .boxes {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (min-width: 1001px) and (max-width: 1600px) {
+    .boxes {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
